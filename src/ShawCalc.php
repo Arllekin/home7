@@ -10,7 +10,7 @@ class ShawarmaCalculator extends Shawarma
     protected array $totalingridients = [];
     protected array $totaltitles = [];
 
-//  Add_Started
+//  Add_Ended
     public function add(Shawarma $shawarma): void
     {
         $this->totalprice += $shawarma->getCost();
